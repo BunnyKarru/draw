@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main" id="main">
+      <canvas id="drawBoard"></canvas>
+      <div id="bar">
+        <ul id="list">
+          <li>
+            <label id="cf" for="name">
+              <img src="brush.svg" alt="brush" />
+              Brush :
+              <input id="color" name="color" type="color" />
+            </label>
+          </li>
+  
+          <li id="eraser"><img src="eraser.svg" alt="eraser" /> Eraser</li>
+          <li>
+            <label for="size">size :</label>
+            <input id="range" type="range" name="size" min="1" max="20" />
+          </li>
+        </ul>
+      </div>
+    </div>
+    
+    <script src="main.js"></script>
+  </body>
+</html>
